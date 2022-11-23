@@ -37,6 +37,17 @@ Le materiau utilisé ici est du MDF (=medium) mais celà peut-être du PMMA ou d
 - Vis M3 10 mm et boulons.
 - Patins anti-derapants autocollants.
 
+# Fabrication
+
+Pas de grosses difficultés dans ce projet :
+- Découper et imprimer les pièces
+- Souder des fils pour relier les interrupteurs à la carte 32u4 (COM à relier au GND et pole NO à relier à une des entrées digitales de la carte).
+- Fixer les dupport d'interrupteur.
+- Glisser les interrupteurs dans les suports (ils se clips dedans, pas besooin de vis).
+- Programmer la carte : pensez à modifier les numéros des pins si jamais vous ne les avez pas branché au même endroit que moi.
+- Assembler le haut et le bas via les entretoises.
+
+
 # "As it" qu'est qui ne va pas ?
 
 Le principal probleme vient des palettes : en effet les palettes découpées dans du medium qui viennent ensuite appuyer sur les boutons sont créées grâce à l'ajout d'un motif qui rend souple le MDF. Or le modif que vous trouverez dans les fichiers de CAO ne sont pas fonctionnels (trop raide). Sur le prototype produit, ces motifs ont étaient refait au dernier moment sur le logiciel de découpe. 
