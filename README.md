@@ -61,4 +61,7 @@ Pas de grosses difficultés dans ce projet :
 
 Le principal probleme vient des palettes : en effet les palettes découpées dans du medium qui viennent ensuite appuyer sur les boutons sont créées grâce à l'ajout d'un motif qui rend souple le MDF. Or le modif que vous trouverez dans les fichiers de CAO ne sont pas fonctionnels (trop raide). Sur le prototype produit, ces motifs ont étaient refait au dernier moment sur le logiciel de découpe. 
 
+# Sources CAO
+
+Les éléments ont été dessinés sous Onshape (utilisable gratuitement). Retrouvez les sources ici : https://cad.onshape.com/documents/ee8e110275b7d185bb8b569f/w/e783464529bb3047f53ea804/e/05ff1f85b02efed82969bc25?renderMode=0&uiState=637e1ac428d07c480a3f1043
 
