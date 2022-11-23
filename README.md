@@ -47,6 +47,9 @@ Le materiau utilisé ici est du **MDF** (=medium) mais celà peut être du **PMM
 - Vis M3 10 mm et boulons.
 - Patins anti-derapants autocollants.
 
+![image](https://user-images.githubusercontent.com/5184702/203556142-ebcac9f7-1281-4640-963c-13c107632d6d.png)
+
+
 # Fabrication
 
 (photos à venir)
