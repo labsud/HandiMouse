@@ -1,6 +1,6 @@
 # HandiMouse
 
-Une petite permettant de déporter les boutons d'une souris. Elle permet à des personnes n'ayant pas la pleine mobilité de leurs membres supérieurs d'utiliser une souris ou une trackball avec une main, et d'appuyer sur les boutons l'autre.
+Une création permettant de déporter les boutons d'une souris. Elle permet à des personnes n'ayant pas la pleine mobilité de leurs membres supérieurs d'utiliser une souris ou une trackball avec une main, et d'appuyer sur les boutons l'autre.
  
 ![image](https://user-images.githubusercontent.com/5184702/203552016-a535d62a-d691-4b16-a7ff-b21c542f0887.png)
 
