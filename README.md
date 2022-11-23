@@ -1,6 +1,6 @@
 # HandiMouse
 
- Une petite création permettant de déporter les boutons d'une souris. Elle permet à des personnes n'ayant pas la pleine mobilité de leurs membres supérieurs d'utiliser une souris ou une trackball avec une main, et d'appuyer sur les boutons avec une autre.
+Une petite permettant de déporter les boutons d'une souris. Elle permet à des personnes n'ayant pas la pleine mobilité de leurs membres supérieurs d'utiliser une souris ou une trackball avec une main, et d'appuyer sur les boutons l'autre.
  
 ![image](https://user-images.githubusercontent.com/5184702/203552016-a535d62a-d691-4b16-a7ff-b21c542f0887.png)
 
@@ -12,13 +12,13 @@ Voir paragraphe un peu plus bas concernant les limitations.
 
 # Principe
 
-Ce périphérique s'articule autour d'une carte à base d'Atmega 32u4, programmée avec Arduino. On vient ensuite y relier des boutons, et quand on appuie sur l'un d'entre eux, celà fait un clic gauche, milieu ou droit. 
+Ce périphérique s'articule autour d'une carte à base d'Atmega 32u4, programmée avec Arduino. On vient ensuite y relier des boutons, et quand on appuie sur l'un d'entre eux, cela fait un clic gauche, milieu ou droit. 
 
 # Materiel
 
 ## Version 0
 
-Cette liste décrit le matériel utilisé pour une première version d'essai (néanmoins parfaitement fonctionnel !), mais il est tout à fait possible d'avoir une approche complètement différente (par exemple tout imprimer en 3D). Cette version nécessite notamment d'avoir accès à une découpe laser et une imprimante 3D, outils numériques typiques que l'ont retrouve dans un fablab ;)
+Cette liste décrit le matériel utilisé pour une première version d'essai (néanmoins parfaitement fonctionnel !), mais il est tout à fait possible d'avoir une approche complètement différente (par exemple tout imprimer en 3D). Cette version nécessite notamment d'avoir accès à une découpe laser et une imprimante 3D, outils numériques typiques que l'on retrouve dans un fablab ;)
 
 ### Outils
 
@@ -30,13 +30,16 @@ Cette liste décrit le matériel utilisé pour une première version d'essai (n�
 ### Electronique 
 
 - Une **carte avec un Atmega32u4** : Arduino Leonardo, Arduino Pro Micro, Adafruit Feather 32u4 ... Du moment qu'il y a un 32u4 on est bon ;) On trouve des cartes aux alentours de 5€
-- Des **micro interrupteurs** ([lien vers ceux utilisés](https://fr.aliexpress.com/item/32273125391.html?spm=a2g0o.order_list.0.0.4de75e5bzIW9RB&gatewayAdapt=glo2fra)) : attention le format est important, le support à imprimer est basé dessus (sinon il faudra en redessiner un autre)
+
+![image](https://user-images.githubusercontent.com/5184702/203554736-faa45fed-4cdd-4d24-8bdd-49d7ab395754.png)
+
+- Des **micro interrupteurs** ([lien vers ceux utilisés](https://fr.aliexpress.com/item/32273125391.html?spm=a2g0o.order_list.0.0.4de75e5bzIW9RB&gatewayAdapt=glo2fra)) : attention le format est important, le support à imprimer est basé dessus (sinon il faudra en redessiner un autre). Prix : ~3€ les 10
 
 ![image](https://user-images.githubusercontent.com/5184702/203551587-fb4edd32-6eed-424e-becf-18e417990499.png)
 
 ### Boitier et boutons
 
-Le materiau utilisé ici est du **MDF** (=medium) mais celà peut être du **PMMA** ou du **contreplaqué**.
+Le materiau utilisé ici est du **MDF** (=medium) mais celà peut être du **PMMA** ou du **contreplaqué**. Prix : - de 1€ en MDF.
 
 ### Divers
 
@@ -59,7 +62,7 @@ Pas de grosses difficultés dans ce projet :
 
 # "As it" qu'est qui ne va pas ?
 
-Le principal probleme vient des palettes : en effet les palettes découpées dans du medium qui viennent ensuite appuyer sur les boutons sont créées grâce à l'ajout d'un motif qui rend souple le MDF. Or le modif que vous trouverez dans les fichiers de CAO ne sont pas fonctionnels (trop raide). Sur le prototype produit, ces motifs ont étaient refait au dernier moment sur le logiciel de découpe. 
+Le principal problème vient des palettes : en effet les palettes découpées dans du medium qui viennent ensuite appuyer sur les boutons sont créées grâce à l'ajout d'un motif qui rend souple le MDF. Or celui que vous trouverez dans les fichiers de CAO n'est pas fonctionnel (trop raide). Sur le prototype produit, le motif a était refait au dernier moment sur le logiciel de découpe. 
 
 # Sources CAO
 
